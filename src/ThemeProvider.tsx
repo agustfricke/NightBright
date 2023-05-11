@@ -6,6 +6,7 @@ interface ThemeProviderProps {
 }
 
 export const ThemeProvider = ({ children }: ThemeProviderProps) => {
+
   const { darkMode } = useDarkMode();
 
   return (
